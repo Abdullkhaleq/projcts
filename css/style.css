@@ -1,0 +1,181 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family:" Raleway" , Arial, Helvetica, sans-serif;
+    background-color:#eee;
+    color :#333;
+    font-weight: 300;
+    line-height: 1.5em;
+}
+.wrapper{
+    padding: 0 10%;
+}
+.flex{
+    display: flex;
+}
+.flex>*{
+    margin: 20px;
+    padding: 20px;
+    width: 100%;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+a:hover{
+    color:#ff03c0;
+}
+button,input[type="submit"]{
+    background-color: #ff03c0;
+    border: 1px solid #ffffff;
+    padding: 0.8em 2em;
+    color: #ffffff;
+    transition-duration: 0.5s;
+}
+button:hover,input[type="submit"]:hover{
+    background-color: #ffffff;
+    color: #ff03c0;
+    border-color: #ff03c0;
+}
+input[type="email"]{
+    background-color: white;
+    border: 1px solid #ff03c0;
+    padding: 0.8em 2em;
+    color: #ff03c0;
+}
+.padding{
+    padding: 80px 0;
+}
+.section-title{
+    font-size: 3em;
+    margin-left: 40px;
+}
+         /* nav */
+.logo{
+    font-size: 1.5em;
+}
+.logo-dot{
+    color: #ff2600;
+}
+.current-page{
+    color: #ff2600;
+}
+nav{
+    border-top: 3px solid #ff03c0;
+}
+nav .logo{
+    display: block;
+}
+nav ul{
+    list-style-type: none;
+    text-align: right;
+}
+nav li{
+    display: inline-block;
+    padding: 0 0.5em;
+}
+       /* Banner   */
+#banner{
+    height: 60vh;
+    border-bottom: 3px solid #ff03c0;
+}
+#banner .center{
+    text-align: center;
+    padding-top: 18vh;
+}
+#banner h1{
+    font-size: 4em;
+    text-decoration: underline #ff00c8;
+}
+#banner p{
+    font-size: 2em;
+}
+/* Intro */
+#intro article{
+    border-left: 1px solid #ff00c8;
+}
+/* Team */
+#team{
+    background-color: #ff00c8;
+    color: #eee;
+}
+#team .logo-dot{
+    color: #eee;
+}
+.team-member{
+    text-align: center;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    transition-duration: 0.8s;
+}
+.team-member:hover{
+  color: #ff2600;;
+    background-color: #eee;
+    box-shadow: 0 0 15px rgb#333;
+}
+.team-member-photo img{
+    border-radius: 50%;
+    width: 200px;
+}
+.team-member h3{
+    font-size: 2em;
+
+}
+.team-member p{
+    font-size: 1.5em;
+}
+/* Comments */
+.opinion{
+    text-align: center; color:rgb#333;
+    border: 1px solid #ff00c8;
+    border-radius: 10px;
+}
+.opinion:hover{
+    
+    background-color:#ff03c0;
+    color: white;
+    transition-duration: 0.8s;
+    border-color: white;
+}
+.opinion-person-photo img{
+    width: 100px;
+    border-radius: 50%;
+}
+.opinion h3{
+    border-bottom: 1px solid #ff03c0;
+    display: inline-block;
+}
+.opinion:hover h3{
+    border-bottom: 1px solid white;
+    display: inline-block;
+}
+/* footer */
+footer{
+    background-color: #ff03c0;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+footer .footer-link-list{
+    width: 50%;
+}
+footer form{
+    width: 200%;
+}
+footer .copyright{
+    width: 50%;
+}
+footer input[type="submit"]:hover{
+    border: 1px solid white;
+}
+footer a:hover{
+    color: #eee;
+}
+footer ul{
+    list-style-type: none;
+}
+.footer-element{
+    border-left: 1px solid #eee;
+}
